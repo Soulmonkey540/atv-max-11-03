@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("digte sua idade");
+	    int v1 = scanner.nextInt();
+		if(v1>=18){
+		  System.out.println("tem ingresso? S ou N?");  
+		  String v2 = scanner.nextLine();
+		  if(v2=="S"){
+		      System.out.println("entrada permitida");
+		  }
+		  if(v2=="N"){
+		      System.out.println("adquira um ingresso");
+		  }
+		 
+		}
+		else {
+		    System.out.println("menor de idade");
+		};
+          scanner.close();
+	    
+}
+}
