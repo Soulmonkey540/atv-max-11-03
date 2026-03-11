@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("digite o primeiro numero");
+		int v1 = scanner.nextInt();
+		System.out.println("digite o segundo numero");
+		int v2 = scanner.nextInt();
+		System.out.println("digite a operação desejada(1=+ , 2=- , 3=/ , 4=*");
+		int menu = scanner.nextInt();
+		scanner.close();
+    switch(menu){
+        
+        case 1:
+        System.out.println(v1+v2);   
+        break;
+        case 2:
+        System.out.println(v1-v2); 
+        break;
+        case 3:
+        System.out.println(v1/v2); 
+        break;
+        case 4:
+        System.out.println(v1*v2); 
+        break;
+        
+        
+        
+        
+        
+    }
+    }
+}
+	    
