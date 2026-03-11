@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("digte o valor de sua compra");
+		double v1 = scanner.nextDouble();
+		scanner.close();
+		if(v1>=500.00){
+		  System.out.println("valor final"+ 80*(v1/100));  
+	}
+		else if(v1>=200.00 && v1<=499.00){
+		 System.out.println();("valor final"+ 90*(v1/100));  
+	}
+	    else {
+	    System.out.println("valor final"+v1); 
+	}
+	    
+}
+}
